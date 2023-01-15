@@ -3,7 +3,7 @@ import Hero from "../components/hero";
 
 const page = () => {
   return (
-    <div>
+    <div className="snap snap-mandatory">
       <Hero />
     </div>
   );

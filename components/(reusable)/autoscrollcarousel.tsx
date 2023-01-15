@@ -60,7 +60,7 @@ export const AutoScrollCarousel = ({
     >
       <div
         ref={wrapperRef}
-        className="flex carouselref scroll- items-center min-h-[4rem] max-w-full snap-x snap-mandatory gap-2 overflow-auto pb-8"
+        className="flex carouselref items-center min-h-[4rem] max-w-full snap-x snap-mandatory gap-2 overflow-auto pb-8"
       >
         {images.map((image, idx) => (
           <img

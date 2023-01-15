@@ -41,7 +41,7 @@ const Header = () => {
               className="md:hidden block cursor-pointer"
             />
             <div
-              className={`absolute z-50 right-0 top-10 w-[10rem] transition-all shadow-md duration-500 bg-white p-2 ${
+              className={`absolute z-50 hidden right-0 top-10 w-[10rem] transition-all shadow-md overflow-hidden duration-500 bg-white p-2 ${
                 isMenuOpen ? "right-0" : "-right-[400px]"
               }`}
             >
@@ -70,9 +70,9 @@ const Header = () => {
         <div className="flex flex-col p-2 justify-center items-center">
           <span className="text-md font-semibold">New Collection Out Now!</span>
           <p>
-            <a href="#" className="underline text-sm">
+            <Link href="/shop" className="underline text-sm">
               Shop Now
-            </a>
+            </Link>
           </p>
         </div>
       </div>
