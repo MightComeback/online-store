@@ -2,16 +2,23 @@
 
 import { SlBasket } from "react-icons/sl";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 type Props = {
   image: string;
   name: string;
   price: string;
+  id: string;
 };
 
-const ItemContainer = ({ image, name, price }: Props) => {
+const ItemContainer = ({ image, name, price, id }: Props) => {
+  const router = useRouter();
+
   return (
-    <div className="flex flex-col hover:scale-110 transition-all hover:bg-orange-100 hover:border-0 hover:shadow-md duration-300 cursor-pointer p-4 max-w-[12rem] w-full border rounded-xl bg-transparent">
+    <div
+      onClick={() => router.push(`/product/${id}`)}
+      className="flex flex-col hover:scale-110 transition-all hover:bg-orange-100 hover:border-0 hover:shadow-md duration-300 cursor-pointer p-4 max-w-[12rem] w-full border rounded-xl bg-transparent"
+    >
       <div className="flex flex-col gap-4">
         <img
           src={image!}
