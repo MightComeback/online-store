@@ -1,114 +1,36 @@
-export const Products = [
+import { Product } from "../typings";
+
+export const Products: Product[] = [
   {
     image: '/hero-pic-2.png',
-    name: 'Snickers',
-    price: '9.99$',
+    name: 'Snickers Jordans Classic',
+    price: '29.99$',
     category: 'shoes',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-1.png',
-    name: 'Shirt',
-    price: '5.99',
-    category: 'shirts',
-    id: '123dsad'
+    id: 'snickers-jordans',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo commodi iure mollitia libero fuga, unde quaerat dignissimos praesentium facilis alias quam reiciendis officiis. Reiciendis ratione nam quos saepe vel quaerat sunt delectus.'
   },
   {
     image: '/hero-pic-2.png',
-    name: 'Snickers',
-    price: '9.99$',
+    name: 'Snickers High Tops Black',
+    price: '19.99$',
     category: 'shoes',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-1.png',
-    name: 'Shirt',
-    price: '5.99',
-    category: 'shirts',
-    id: '123dsad'
+    id: 'snickers-high-top',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo commodi iure mollitia libero fuga, unde quaerat dignissimos praesentium facilis alias quam reiciendis officiis. Reiciendis ratione nam quos saepe vel quaerat sunt delectus.'
   },
   {
     image: '/hero-pic-2.png',
-    name: 'Snickers',
+    name: 'Shirt Cropped',
     price: '9.99$',
-    category: 'shoes',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-1.png',
-    name: 'Shirt',
-    price: '5.99',
     category: 'shirts',
-    id: '123dsad'
+    id: 'shirt-cropped',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo commodi iure mollitia libero fuga, unde quaerat dignissimos praesentium facilis alias quam reiciendis officiis. Reiciendis ratione nam quos saepe vel quaerat sunt delectus.'
   },
   {
     image: '/hero-pic-2.png',
-    name: 'Snickers',
-    price: '9.99$',
-    category: 'shoes',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-1.png',
-    name: 'Shirt',
-    price: '5.99',
-    category: 'shirts',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-2.png',
-    name: 'Snickers',
-    price: '9.99$',
-    category: 'shoes',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-1.png',
-    name: 'Shirt',
-    price: '5.99',
-    category: 'shirts',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-2.png',
-    name: 'Snickers',
-    price: '9.99$',
-    category: 'shoes',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-1.png',
-    name: 'Shirt',
-    price: '5.99',
-    category: 'shirts',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-2.png',
-    name: 'Snickers',
-    price: '9.99$',
-    category: 'shoes',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-1.png',
-    name: 'Shirt',
-    price: '5.99',
-    category: 'shirts',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-2.png',
-    name: 'Snickers',
-    price: '9.99$',
-    category: 'shoes',
-    id: '123dsad'
-  },
-  {
-    image: '/hero-pic-1.png',
-    name: 'Shirt',
-    price: '5.99',
-    category: 'shirts',
-    id: '123dsad'
+    name: 'T-Shirt Classic Basic',
+    price: '4.99$',
+    category: 'tshirts',
+    id: 'tshirt-basic',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo commodi iure mollitia libero fuga, unde quaerat dignissimos praesentium facilis alias quam reiciendis officiis. Reiciendis ratione nam quos saepe vel quaerat sunt delectus.'
   },
 ];

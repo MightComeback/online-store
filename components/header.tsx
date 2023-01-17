@@ -21,7 +21,9 @@ const Header = () => {
         <div className="flex justify-between items-center px-8">
           <div>
             {/* Logo */}
-            <p className="italic">APPAREL</p>
+            <Link href="#" className="italic">
+              APPAREL
+            </Link>
           </div>
           <div className="md:flex hidden gap-6 [&_h5]:font-semibold [&_h5]:text-md p-2">
             <h5>Featured</h5>
