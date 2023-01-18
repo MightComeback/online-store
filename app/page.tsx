@@ -3,7 +3,7 @@ import Hero from "../components/hero";
 
 const page = () => {
   return (
-    <div className="snap snap-mandatory">
+    <div className="snap snap-mandatory bg-orange-100">
       <Hero />
     </div>
   );

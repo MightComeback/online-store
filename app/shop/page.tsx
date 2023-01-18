@@ -1,8 +1,11 @@
 import { Products } from "../../assets/products";
 import ItemContainer from "../../components/(reusable)/itemcontainer";
+import client from "../../prisma/prisma";
 
-const page = () => {
+const page = async () => {
   const productsArray = Products;
+
+  const products = client.product.findMany().then((prod) => console.log(prod));
 
   return (
     <section className="w-full overflow-hidden">
