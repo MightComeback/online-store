@@ -8,9 +8,10 @@ datasource db {
 }
 
 model Product {
-  id          Int    @default(autoincrement())
+  id          String @default(cuid())
   name        String @unique
   price       String
   description String
   image       String
+  category    String
 }

@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "Product" ALTER COLUMN "id" DROP DEFAULT,
+ALTER COLUMN "id" SET DATA TYPE TEXT;
+DROP SEQUENCE "Product_id_seq";
