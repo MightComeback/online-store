@@ -1,1 +1,1 @@
-Online clothing store using Next 13
+Online clothing store using Stripe with Axios, PostgresDB with Prisma, NextJS 13, React, TypeScript and TailwindCSS.
